@@ -1,4 +1,5 @@
 ﻿using System;
+using MTEFacit.ForLoopar;
 using MTEFacit.IfSatser;
 
 namespace MTEFacit
@@ -7,6 +8,10 @@ namespace MTEFacit
     {
         static void Main(string[] args)
         {
+            var lab3 = new Lab3();
+            lab3.Run();
+
+
             var lab2 = new Lab2();
             lab2.Run();
 
